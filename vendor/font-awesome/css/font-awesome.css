@@ -1817,6 +1817,7 @@
 }
 .fa-medium:before {
   content: "\f23a";
+  padding: 20px;
 }
 .fa-yc:before,
 .fa-y-combinator:before {
