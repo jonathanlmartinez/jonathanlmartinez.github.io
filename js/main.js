@@ -1,8 +1,6 @@
 jQuery(document).ready(function($) {
 
-
     /*======= Skillset *=======*/
-    
     
     $('.level-bar-inner').css('width', '0');
     
@@ -17,9 +15,17 @@ jQuery(document).ready(function($) {
             }, 800);
             
         });
-
     });
-   
-    
-
 });
+
+function addItemToList() {
+    var input = document.getElementById('input');
+    if (input.value !== "") {
+      var ul = document.getElementById("list");
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(input.value));
+      ul.appendChild(li);
+    }
+}
+
+

@@ -297,5 +297,29 @@ p {
 .exercise-navbar {
   background-color: #F05F40;
 }
+
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+#list-exercise {
+    background-color: #F05F40;
+    text-align: center;
+    border-radius: 5px;
+    color: black ;
+}
+
+#list {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+#insert-btn {
+  margin: 15px
+}
+
+#list-text {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
